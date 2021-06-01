@@ -1,0 +1,18 @@
+</metadata>
+
+<manifest>
+
+<!-- navigation -->
+<item media-type="application/xhtml+xml" id="toc" href="navigation-documents.xhtml" properties="nav"/>
+
+<!-- style -->
+<item media-type="text/css" id="fixed-layout-jp" href="style/fixed-layout-jp.css"/>
+<item media-type="text/css" id="book-style" href="style/book-style.css"/>
+<item media-type="text/css" id="style-reset" href="style/style-reset.css"/>
+<item media-type="text/css" id="style-standard" href="style/style-standard.css"/>
+<item media-type="text/css" id="style-advance" href="style/style-advance.css"/>
+<item media-type="text/css" id="style-check" href="style/style-check.css"/>
+<item media-type="text/css" id="style-karc" href="style/style-karc.css"/>
+<item media-type="text/css" id="style-kadokawa" href="style/style-kadokawa.css"/>
+
+<!-- image -->

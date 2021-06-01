@@ -1,0 +1,9 @@
+<!-- 出版社名 -->
+<dc:publisher id="publisher">株式会社ＫＡＤＯＫＡＷＡ</dc:publisher>
+<meta refines="#publisher" property="file-as">カブシキガイシャカドカワ</meta>
+
+<!-- 言語 -->
+<dc:language>ja</dc:language>
+
+<!-- ファイルid -->
+<dc:identifier id="bw-ecode">

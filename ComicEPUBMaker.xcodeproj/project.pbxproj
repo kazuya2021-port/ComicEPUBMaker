@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B8134622716C3100265D8D /* CustumTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8134522716C3100265D8D /* CustumTable.m */; };
+		82B8134922718AF100265D8D /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8134822718AF100265D8D /* SettingController.m */; };
+		82B8134C22719EB500265D8D /* MakeProjectFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8134B22719EB500265D8D /* MakeProjectFolder.m */; };
+		82C6A5A5226F056F0036B836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A5A4226F056F0036B836 /* AppDelegate.m */; };
+		82C6A5A8226F05700036B836 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A5A7226F05700036B836 /* Document.m */; };
+		82C6A5AB226F05700036B836 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A5A9226F05700036B836 /* Document.xib */; };
+		82C6A5AD226F05710036B836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A5AC226F05710036B836 /* Assets.xcassets */; };
+		82C6A5B0226F05720036B836 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A5AE226F05720036B836 /* MainMenu.xib */; };
+		82C6A5B3226F05720036B836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A5B2226F05720036B836 /* main.m */; };
+		82C6A5C1226F138B0036B836 /* SettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A5C0226F138B0036B836 /* SettingInfo.m */; };
+		82C6A5C8226F1F850036B836 /* KZLibs.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 82C6A5C7226F1F850036B836 /* KZLibs.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		82C6A5CA226F21CA0036B836 /* KZLibs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A5C7226F1F850036B836 /* KZLibs.dylib */; };
+		82CF246B22794FF200951940 /* nav_initial in Resources */ = {isa = PBXBuildFile; fileRef = 82CF246822794FF200951940 /* nav_initial */; };
+		82CF246C22794FF200951940 /* nav_last in Resources */ = {isa = PBXBuildFile; fileRef = 82CF246922794FF200951940 /* nav_last */; };
+		82CF246D22794FF200951940 /* nav_mid in Resources */ = {isa = PBXBuildFile; fileRef = 82CF246A22794FF200951940 /* nav_mid */; };
+		82CF968B2272D971006305EC /* CustumPathControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF968A2272D971006305EC /* CustumPathControl.m */; };
+		82CF968E2272E8C9006305EC /* MakeFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF968D2272E8C9006305EC /* MakeFolder.m */; };
+		82CF969122730139006305EC /* MakeEPUB.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF969022730139006305EC /* MakeEPUB.m */; };
+		82CF96CA22731F71006305EC /* opf_initial in Resources */ = {isa = PBXBuildFile; fileRef = 82CF969F2273095F006305EC /* opf_initial */; };
+		82CF96CB22731F71006305EC /* opf_mid1 in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96A322730960006305EC /* opf_mid1 */; };
+		82CF96CC22731F71006305EC /* opf_mid2 in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96A222730960006305EC /* opf_mid2 */; };
+		82CF96CD22731F71006305EC /* opf_mid3 in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96A02273095F006305EC /* opf_mid3 */; };
+		82CF96CE22731F71006305EC /* opf_mid4 in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96A122730960006305EC /* opf_mid4 */; };
+		82CF96CF22731F71006305EC /* xml_end in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96942273086C006305EC /* xml_end */; };
+		82CF96D022731F71006305EC /* xml_initial in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96932273086C006305EC /* xml_initial */; };
+		82CF96D122731F71006305EC /* xml_mid in Resources */ = {isa = PBXBuildFile; fileRef = 82CF96952273086C006305EC /* xml_mid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82C6A5C9226F1F850036B836 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82C6A5C8226F1F850036B836 /* KZLibs.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82B8134422716C3100265D8D /* CustumTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumTable.h; sourceTree = "<group>"; };
+		82B8134522716C3100265D8D /* CustumTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumTable.m; sourceTree = "<group>"; };
+		82B8134722718AF100265D8D /* SettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		82B8134822718AF100265D8D /* SettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		82B8134A22719EB500265D8D /* MakeProjectFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeProjectFolder.h; sourceTree = "<group>"; };
+		82B8134B22719EB500265D8D /* MakeProjectFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeProjectFolder.m; sourceTree = "<group>"; };
+		82C6A5A0226F056F0036B836 /* ComicEPUBMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicEPUBMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A5A3226F056F0036B836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82C6A5A4226F056F0036B836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82C6A5A6226F05700036B836 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		82C6A5A7226F05700036B836 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		82C6A5AA226F05700036B836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		82C6A5AC226F05710036B836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82C6A5AF226F05720036B836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82C6A5B1226F05720036B836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C6A5B2226F05720036B836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82C6A5B4226F05720036B836 /* ComicEPUBMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComicEPUBMaker.entitlements; sourceTree = "<group>"; };
+		82C6A5BA226F06490036B836 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82C6A5BF226F138B0036B836 /* SettingInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingInfo.h; sourceTree = "<group>"; };
+		82C6A5C0226F138B0036B836 /* SettingInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingInfo.m; sourceTree = "<group>"; };
+		82C6A5C5226F1EFC0036B836 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Quartz.framework; sourceTree = DEVELOPER_DIR; };
+		82C6A5C6226F1F030036B836 /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/NetFS.framework; sourceTree = DEVELOPER_DIR; };
+		82C6A5C7226F1F850036B836 /* KZLibs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = KZLibs.dylib; path = Libs/KZLibs.dylib; sourceTree = "<group>"; };
+		82CF246822794FF200951940 /* nav_initial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = nav_initial; sourceTree = "<group>"; };
+		82CF246922794FF200951940 /* nav_last */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nav_last; sourceTree = "<group>"; };
+		82CF246A22794FF200951940 /* nav_mid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nav_mid; sourceTree = "<group>"; };
+		82CF96892272D971006305EC /* CustumPathControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustumPathControl.h; sourceTree = "<group>"; };
+		82CF968A2272D971006305EC /* CustumPathControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustumPathControl.m; sourceTree = "<group>"; };
+		82CF968C2272E8C9006305EC /* MakeFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeFolder.h; sourceTree = "<group>"; };
+		82CF968D2272E8C9006305EC /* MakeFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeFolder.m; sourceTree = "<group>"; };
+		82CF968F22730139006305EC /* MakeEPUB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeEPUB.h; sourceTree = "<group>"; };
+		82CF969022730139006305EC /* MakeEPUB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeEPUB.m; sourceTree = "<group>"; };
+		82CF96932273086C006305EC /* xml_initial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xml_initial; sourceTree = "<group>"; };
+		82CF96942273086C006305EC /* xml_end */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xml_end; sourceTree = "<group>"; };
+		82CF96952273086C006305EC /* xml_mid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xml_mid; sourceTree = "<group>"; };
+		82CF96992273087A006305EC /* style-kadokawa.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-kadokawa.css"; sourceTree = "<group>"; };
+		82CF969A2273087A006305EC /* style-advance.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-advance.css"; sourceTree = "<group>"; };
+		82CF969B2273087A006305EC /* style-check.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-check.css"; sourceTree = "<group>"; };
+		82CF969C2273087B006305EC /* style-standard.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-standard.css"; sourceTree = "<group>"; };
+		82CF969D2273087B006305EC /* style-reset.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-reset.css"; sourceTree = "<group>"; };
+		82CF969E2273087B006305EC /* style-karc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "style-karc.css"; sourceTree = "<group>"; };
+		82CF969F2273095F006305EC /* opf_initial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = opf_initial; sourceTree = "<group>"; };
+		82CF96A02273095F006305EC /* opf_mid3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opf_mid3; sourceTree = "<group>"; };
+		82CF96A122730960006305EC /* opf_mid4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opf_mid4; sourceTree = "<group>"; };
+		82CF96A222730960006305EC /* opf_mid2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opf_mid2; sourceTree = "<group>"; };
+		82CF96A322730960006305EC /* opf_mid1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opf_mid1; sourceTree = "<group>"; };
+		82CF96A92273096B006305EC /* book-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "book-style.css"; sourceTree = "<group>"; };
+		82CF96AB2273097E006305EC /* mimetype */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mimetype; sourceTree = "<group>"; };
+		82CF96AD227309A9006305EC /* container.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = container.xml; sourceTree = "<group>"; };
+		82CF96AF227309D7006305EC /* fixed-layout-jp.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "fixed-layout-jp.css"; sourceTree = "<group>"; };
+		82CF96B122730A72006305EC /* i-bookwalker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-bookwalker.jpg"; sourceTree = "<group>"; };
+		82CF96B222730A72006305EC /* i-first-white_127.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-first-white_127.jpg"; sourceTree = "<group>"; };
+		82CF96B322730A72006305EC /* i-bookwalker_127.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-bookwalker_127.jpg"; sourceTree = "<group>"; };
+		82CF96B422730A73006305EC /* i-first-white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-first-white.jpg"; sourceTree = "<group>"; };
+		82CF96B9227319C6006305EC /* i-colophon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-colophon.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C6A59D226F056F0036B836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C6A5CA226F21CA0036B836 /* KZLibs.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B8134322716C0F00265D8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82B8134422716C3100265D8D /* CustumTable.h */,
+				82B8134522716C3100265D8D /* CustumTable.m */,
+				82CF96892272D971006305EC /* CustumPathControl.h */,
+				82CF968A2272D971006305EC /* CustumPathControl.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		82B8134D22719EB900265D8D /* Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				82B8134A22719EB500265D8D /* MakeProjectFolder.h */,
+				82B8134B22719EB500265D8D /* MakeProjectFolder.m */,
+				82CF968C2272E8C9006305EC /* MakeFolder.h */,
+				82CF968D2272E8C9006305EC /* MakeFolder.m */,
+				82CF968F22730139006305EC /* MakeEPUB.h */,
+				82CF969022730139006305EC /* MakeEPUB.m */,
+			);
+			name = Funcs;
+			sourceTree = "<group>";
+		};
+		82C6A597226F056E0036B836 = {
+			isa = PBXGroup;
+			children = (
+				82C6A5A2226F056F0036B836 /* ComicEPUBMaker */,
+				82C6A5A1226F056F0036B836 /* Products */,
+				82C6A5C2226F1EDB0036B836 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82C6A5A1226F056F0036B836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A5A0226F056F0036B836 /* ComicEPUBMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C6A5A2226F056F0036B836 /* ComicEPUBMaker */ = {
+			isa = PBXGroup;
+			children = (
+				82CF969222730847006305EC /* ePubResource */,
+				82B8134D22719EB900265D8D /* Funcs */,
+				82B8134322716C0F00265D8D /* View */,
+				82C6A5BE226F134C0036B836 /* Model */,
+				82C6A5A3226F056F0036B836 /* AppDelegate.h */,
+				82C6A5A4226F056F0036B836 /* AppDelegate.m */,
+				82B8134722718AF100265D8D /* SettingController.h */,
+				82B8134822718AF100265D8D /* SettingController.m */,
+				82C6A5A6226F05700036B836 /* Document.h */,
+				82C6A5A7226F05700036B836 /* Document.m */,
+				82C6A5A9226F05700036B836 /* Document.xib */,
+				82C6A5AC226F05710036B836 /* Assets.xcassets */,
+				82C6A5AE226F05720036B836 /* MainMenu.xib */,
+				82C6A5B1226F05720036B836 /* Info.plist */,
+				82C6A5B2226F05720036B836 /* main.m */,
+				82C6A5B4226F05720036B836 /* ComicEPUBMaker.entitlements */,
+				82C6A5BA226F06490036B836 /* PrefixHeader.pch */,
+			);
+			path = ComicEPUBMaker;
+			sourceTree = "<group>";
+		};
+		82C6A5BE226F134C0036B836 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A5BF226F138B0036B836 /* SettingInfo.h */,
+				82C6A5C0226F138B0036B836 /* SettingInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82C6A5C2226F1EDB0036B836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A5C7226F1F850036B836 /* KZLibs.dylib */,
+				82C6A5C6226F1F030036B836 /* NetFS.framework */,
+				82C6A5C5226F1EFC0036B836 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CF969222730847006305EC /* ePubResource */ = {
+			isa = PBXGroup;
+			children = (
+				82CF96BB22731F1A006305EC /* ePubTemplate */,
+				82CF969F2273095F006305EC /* opf_initial */,
+				82CF96A322730960006305EC /* opf_mid1 */,
+				82CF96A222730960006305EC /* opf_mid2 */,
+				82CF96A02273095F006305EC /* opf_mid3 */,
+				82CF96A122730960006305EC /* opf_mid4 */,
+				82CF96942273086C006305EC /* xml_end */,
+				82CF96932273086C006305EC /* xml_initial */,
+				82CF96952273086C006305EC /* xml_mid */,
+				82CF246822794FF200951940 /* nav_initial */,
+				82CF246922794FF200951940 /* nav_last */,
+				82CF246A22794FF200951940 /* nav_mid */,
+			);
+			name = ePubResource;
+			sourceTree = "<group>";
+		};
+		82CF96BB22731F1A006305EC /* ePubTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				82CF96B322730A72006305EC /* i-bookwalker_127.jpg */,
+				82CF96B122730A72006305EC /* i-bookwalker.jpg */,
+				82CF96B222730A72006305EC /* i-first-white_127.jpg */,
+				82CF96B422730A73006305EC /* i-first-white.jpg */,
+				82CF96B9227319C6006305EC /* i-colophon.jpg */,
+				82CF96AD227309A9006305EC /* container.xml */,
+				82CF96AB2273097E006305EC /* mimetype */,
+				82CF96A92273096B006305EC /* book-style.css */,
+				82CF96AF227309D7006305EC /* fixed-layout-jp.css */,
+				82CF969A2273087A006305EC /* style-advance.css */,
+				82CF969B2273087A006305EC /* style-check.css */,
+				82CF96992273087A006305EC /* style-kadokawa.css */,
+				82CF969E2273087B006305EC /* style-karc.css */,
+				82CF969D2273087B006305EC /* style-reset.css */,
+				82CF969C2273087B006305EC /* style-standard.css */,
+			);
+			path = ePubTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C6A59F226F056F0036B836 /* ComicEPUBMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C6A5B7226F05720036B836 /* Build configuration list for PBXNativeTarget "ComicEPUBMaker" */;
+			buildPhases = (
+				82C6A59C226F056F0036B836 /* Sources */,
+				82C6A59D226F056F0036B836 /* Frameworks */,
+				82C6A59E226F056F0036B836 /* Resources */,
+				82C6A5C9226F1F850036B836 /* Embed Libraries */,
+				82CF96D2227326DB006305EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicEPUBMaker;
+			productName = ComicEPUBMaker;
+			productReference = 82C6A5A0226F056F0036B836 /* ComicEPUBMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C6A598226F056E0036B836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82C6A59F226F056F0036B836 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82C6A59B226F056E0036B836 /* Build configuration list for PBXProject "ComicEPUBMaker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C6A597226F056E0036B836;
+			productRefGroup = 82C6A5A1226F056F0036B836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C6A59F226F056F0036B836 /* ComicEPUBMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C6A59E226F056F0036B836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CF96CA22731F71006305EC /* opf_initial in Resources */,
+				82CF246B22794FF200951940 /* nav_initial in Resources */,
+				82CF96CB22731F71006305EC /* opf_mid1 in Resources */,
+				82CF246C22794FF200951940 /* nav_last in Resources */,
+				82CF96CC22731F71006305EC /* opf_mid2 in Resources */,
+				82CF96CD22731F71006305EC /* opf_mid3 in Resources */,
+				82CF96CE22731F71006305EC /* opf_mid4 in Resources */,
+				82CF246D22794FF200951940 /* nav_mid in Resources */,
+				82CF96CF22731F71006305EC /* xml_end in Resources */,
+				82CF96D022731F71006305EC /* xml_initial in Resources */,
+				82CF96D122731F71006305EC /* xml_mid in Resources */,
+				82C6A5AD226F05710036B836 /* Assets.xcassets in Resources */,
+				82C6A5AB226F05700036B836 /* Document.xib in Resources */,
+				82C6A5B0226F05720036B836 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82CF96D2227326DB006305EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "RES_PATH=\"$CONFIGURATION_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources\"\nTMP_PATH=\"$SRCROOT/$PRODUCT_NAME/ePubTemplate\"\necho $RES_PATH\necho $TMP_PATH\ncp -a $TMP_PATH/mimetype \"$RES_PATH\"\ncp -a $TMP_PATH/*.* \"$RES_PATH\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C6A59C226F056F0036B836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C6A5A8226F05700036B836 /* Document.m in Sources */,
+				82C6A5B3226F05720036B836 /* main.m in Sources */,
+				82C6A5C1226F138B0036B836 /* SettingInfo.m in Sources */,
+				82CF968E2272E8C9006305EC /* MakeFolder.m in Sources */,
+				82B8134C22719EB500265D8D /* MakeProjectFolder.m in Sources */,
+				82CF969122730139006305EC /* MakeEPUB.m in Sources */,
+				82B8134622716C3100265D8D /* CustumTable.m in Sources */,
+				82CF968B2272D971006305EC /* CustumPathControl.m in Sources */,
+				82B8134922718AF100265D8D /* SettingController.m in Sources */,
+				82C6A5A5226F056F0036B836 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82C6A5A9226F05700036B836 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C6A5AA226F05700036B836 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		82C6A5AE226F05720036B836 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C6A5AF226F05720036B836 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C6A5B5226F05720036B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Includes\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Libs\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		82C6A5B6226F05720036B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Includes\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Libs\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+		82C6A5B8226F05720036B836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ComicEPUBMaker/ComicEPUBMaker/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Includes\"";
+				INFOPLIST_FILE = ComicEPUBMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs\"",
+					"$(PROJECT_DIR)/Libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.ComicEPUBMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		82C6A5B9226F05720036B836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ComicEPUBMaker/ComicEPUBMaker/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Includes\"";
+				INFOPLIST_FILE = ComicEPUBMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs\"",
+					"$(PROJECT_DIR)/Libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.ComicEPUBMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C6A59B226F056E0036B836 /* Build configuration list for PBXProject "ComicEPUBMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C6A5B5226F05720036B836 /* Debug */,
+				82C6A5B6226F05720036B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C6A5B7226F05720036B836 /* Build configuration list for PBXNativeTarget "ComicEPUBMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C6A5B8226F05720036B836 /* Debug */,
+				82C6A5B9226F05720036B836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C6A598226F056E0036B836 /* Project object */;
+}

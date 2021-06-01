@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+ xmlns="http://www.idpf.org/2007/opf"
+ version="3.0"
+ xml:lang="ja"
+ unique-identifier="bw-ecode"
+ prefix="rendition: http://www.idpf.org/vocab/rendition/#
+         ebpaj: http://www.ebpaj.jp/
+         fixed-layout-jp: http://www.digital-comic.jp/
+         kadokawa: http://www.kadokawa.co.jp/
+         access: http://www.access-company.com/2012/layout#
+         ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"
+>
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- 作品名 -->

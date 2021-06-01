@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  ComicEPUBMaker
+//
+//  Created by uchiyama_Macmini on 2019/04/23.
+//  Copyright © 2019年 uchiyama_Macmini. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "KZLibs.h"
+#import "SettingInfo.h"
+
+#define PRJ_1_FOLDER @"1_付き物作業"
+#define PRJ_2_FOLDER @"2_入稿データ"
+#define PRJ_3_FOLDER @"3_書誌"
+#define PRJ_4_FOLDER @"4_FECアップ用"
+#define PRJ_5_FOLDER @"5_EPUB"
+
+#define MAKE_DPI 300.0
+#define MAKE_HEIGHT 2048.0
+#define HAN_HEIGHT @"182"
+#define HAN_WIDTH @"128"
+#define HAN_HEIGHT2 @"180"
+#define HAN_WIDTH2 @"127"
+#define HAN_HEIGHT3 @"210"
+#define HAN_WIDTH3 @"148"
+#define HAN_HEIGHT4 @"148"
+#define HAN_WIDTH4 @"105"
+#define HAN_HEIGHT5 @"149"
+#define HAN_WIDTH5 @"105"
+
+
+#endif /* PrefixHeader_pch */
